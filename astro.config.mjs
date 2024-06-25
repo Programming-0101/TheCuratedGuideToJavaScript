@@ -5,7 +5,7 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://Programming-0101.github.com/TheCuratedGuideToJavaScript',
-	base: '/TheCuratedGuideToJavaScript/',
+	base: 'TheCuratedGuideToJavaScript',
 	integrations: [
 		starlight({
 			title: 'Your JS Guide',
