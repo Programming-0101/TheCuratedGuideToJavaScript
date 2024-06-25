@@ -6,21 +6,21 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Docs with Tailwind',
+			title: 'Your JS Guide',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/Programming-0101/TheCuratedGuideToJavaScript',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					label: 'Learning',
+					autogenerate: { directory: 'learn' },
 				},
 				{
 					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Start Here', link: '/reference/readme/' },
+					],
 				},
 			],
 			customCss: ['./src/tailwind.css'],
