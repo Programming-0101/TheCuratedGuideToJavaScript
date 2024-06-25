@@ -3,6 +3,7 @@
   "description": "A practical, curated guide to learning JavaScript. This site relies heavily on official JS Docs on MDN and incorporates links/references to several other sites/resources. It also works best when combined the The JS Workbook.",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "pnpm@8.10.5",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
